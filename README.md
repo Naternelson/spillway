@@ -1,27 +1,36 @@
-# Spillway: Warehouse Workflow Automation Application
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Overview
-Spillway is a desktop application designed to revolutionize warehouse management and operations. Aimed at small to medium-sized warehouses and logistics companies, Spillway focuses on automating and streamlining essential tasks to improve operational efficiency, accuracy, and user productivity. By integrating Spillway into their workflow, organizations can effortlessly manage product information, automate print jobs, generate custom labels, and communicate updates, ensuring seamless operation and enhanced customer satisfaction.
+## Getting Started
 
-## Key Features and Benefits
-- **Product Information Management:** Easy upload and maintenance of product details, including unit specifications, ensuring a robust and accurate product database.
-- **Automated Unit Specification Handling:** Define and manage product unit specifications, such as required fields, unit counts, and uniqueness, to maintain high levels of inventory accuracy and consistency.
-- **Silent Local Print Jobs:** Automate print jobs to local printers, enabling silent, error-free printing of labels, work orders, and reports directly from the desktop.
-- **Dynamic Label Generation:** Create labels of custom sizes dynamically, catering to various products and packaging needs, enhancing flexibility in warehouse operations.
-- **Email Updates and Reports:** Automatically send tailored email reports and updates to customers, improving communication and transparency in customer service.
-- **Work Order Processing and Storage:** Efficiently process and store work orders, streamlining operations and ensuring easy access to historical data.
+First, run the development server:
 
-## Vision and Goals
-Spillway is not just a tool; it's a solution crafted to address the specific challenges faced by warehouses and logistics operations. Our vision is to empower organizations with the ability to automate mundane tasks, focus on core business strategies, and significantly reduce the margin for error in warehouse operations.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Differentiators:
-- **Customizability:** Spillway is built with flexibility in mind, allowing users to tailor the application to their unique workflow needs.
-- **Integration Capabilities:** Designed to seamlessly integrate with existing systems, Spillway ensures a smooth transition and enhances overall system synergy.
-- **Scalability:** As your business grows, Spillway grows with you, offering scalable solutions that adapt to increasing demands without compromising performance.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Targeted Impact:
-- **Operational Efficiency:** By automating routine tasks, Spillway significantly reduces manual labor, leading to faster turnaround times and increased productivity.
-- **Accuracy in Operations:** With automated data handling and dynamic label generation, Spillway minimizes human error, ensuring accuracy in every aspect of warehouse management.
-- **Enhanced Customer Communication:** Automated email updates foster better communication, keeping customers informed and satisfied with their service.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Our goal is to make Spillway an indispensable part of your warehouse management system, delivering tangible benefits that propel your business forward. By focusing on automation, customization, and user-centric design, we aim to address the pain points in warehouse operations, making them more efficient, accurate, and agile.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
